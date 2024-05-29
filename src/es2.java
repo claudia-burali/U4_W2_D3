@@ -5,7 +5,6 @@ import java.util.stream.Collectors;
 
 public class es2 {
     public static void main(String[] args) {
-        // Creazione di alcuni prodotti
         Product product1 = new Product(1, "Laptop", "Electronics", 1200.00);
         Product product2 = new Product(2, "Pacifier", "Baby", 12.00);
         Product product3 = new Product(3, "SoftToy", "Baby", 30.00);

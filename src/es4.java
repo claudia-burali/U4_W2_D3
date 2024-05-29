@@ -35,7 +35,7 @@ public class es4 {
         orderList.add(order3);
 
         List<Product> productsOrderedByTier2Customers = getProductsOrderedByTier2Customers(orderList);
-        
+
         System.out.println("Products ordered by Tier 2 customers between 01-Feb-2021 and 01-Apr-2021:");
         productsOrderedByTier2Customers.forEach(System.out::println);
     }
